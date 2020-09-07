@@ -10,8 +10,8 @@ public class RotateLeftAndRight {
 //		rotaterighttemparr(a, 10);
 //		rotateright(a, 10);
 //		rotateleftbyone(a);
-		rotateleftbyk(a, 2);
-//		rotateleftbykbetter(a, 2);
+//		rotateleftbyk(a, 2);
+		rotateleftbyk_best(a, 2);
 	}
 	
 	static void rotaterighttemparr(int[] a, int k) {
@@ -80,6 +80,25 @@ public class RotateLeftAndRight {
 		a[j] = temp;
 		}
 		System.out.println();
-		System.out.println("After left rotate by one-->"+Arrays.toString(a));
+		System.out.println("After left rotate by "+k+"-->"+Arrays.toString(a));
+	}
+	
+	
+	static void rotateleftbyk_best(int[] a, int k) {
+		int len = a.length;
+		int i,j = 0;
+		int temp[] = new int[k];
+		
+		for(i=0; i<k; i++)
+			temp[i] = a[i];
+		
+		for(i=k;i<len;i++)
+			a[i-k] = a[i];
+		
+		for(i=0; i<k; i++)
+			a[len-k+i] = temp[i];
+			
+		System.out.println();
+		System.out.println("After left rotate by "+k+"-->"+Arrays.toString(a));
 	}
 }

@@ -1,0 +1,26 @@
+1. Intro - short that introduction(only technologies, look for their reposnse, if they want go ahead)
+2. While writing code and drawing diagrams, talk continuously
+3. Programs-- clarify and talk, they are friendly
+4. Java+Selenium, practise java programs, use java only,
+5. eclipse should be ready, 
+6. Java coding questions and testng be ready with basic code(with before class, before method etc.)
+7. API testing 
+8. Practise framework diagram
+
+
+5-10 intro
+10 min
+15 java programs
+15 programs testng - 100 parallel tests
+component test framework diagram
+faviourite part of framework an why
+which part needs to be improved..
+thought process
+Databases also - diff between SQL/No SQL, few No SQL databases
+
+Auto scaling and Scaling testing
+auto scaling scenarios
+JSON parsing 
+
+Openup - Questioning -- Explain Approach -- talk ... don't be silent
+practise more programs

@@ -3,8 +3,8 @@ package gfg.strings;
 public class Anagrams {
 
 	public static void main(String[] args) {
-		String s1 = "raghav";
-		String s2 = "ghavbr";
+		String s1 = "listen";
+		String s2 = "enlist";
 		
 		boolean result = areAnagrams(s1, s2);
 		if(result)
@@ -19,12 +19,11 @@ public class Anagrams {
 		
 		int count[] = new int[256];
 		
-		for(int i=0; i<s1.length(); i++)
+		for(int i=0; i<s1.length(); i++) {
 			count[s1.charAt(i)]++;
-		
-		for(int i=0; i<s2.length(); i++)
 			count[s2.charAt(i)]--;
-		
+		}
+			
 		for(int i=0; i<256; i++)
 			if(count[i]!=0)
 				return false;

@@ -4,8 +4,8 @@ public class ReplaceSpaces {
 
 	public static void main(String[] args) {
 		String s = "Mr John Smith    ";
-//		replacespaces(s.toCharArray(), 13);
-		replacespaces_4mstart(s.toCharArray(), 13);
+		replacespaces(s.toCharArray(), 13);
+//		replacespaces_4mstart(s.toCharArray(), 13);
 
 	}
 
